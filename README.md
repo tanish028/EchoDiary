@@ -1,5 +1,9 @@
 # EchoDiary — Your Voice. Your Emotions. Your Story.
 
+# EchoDiary — Your Voice. Your Emotions. Your Story.
+
+ **Live Demo:** [echodiary.streamlit.app](https://echodiary.streamlit.app/)
+
 **The problem it solves.** Voice notes, photos and written thoughts about the same day end up in three different
 apps, and none of them lets you *look back* — find "that sunrise walk", see which memories look or sound alike, or
 understand your own recordings. EchoDiary keeps one diary entry per moment (audio + transcript + photo + a mood *you*
@@ -67,7 +71,7 @@ python tests/e2e_browser.py http://localhost:8501 /path/to/chrome   # optional r
 Supported media: audio = **PCM/float WAV** (8/16/32-bit integer or 32-bit float, mono or stereo, ≥ 4 kHz); photos = PNG, JPEG, WebP, BMP.
 MP3/M4A/OGG are not supported — convert to WAV first.
 
-## Limitations (honest list)
+## Limitations
 - No speech recognition: transcripts are typed. No emotion detection: mood is whatever you select.
 - Visual similarity is low-level (intensity + edge statistics). It can rank unrelated scenes as similar and cannot recognise objects, people or places.
 - Audio analysis is capped at 180 s; the spectrogram *display* is downsampled for responsiveness (the STFT is not).
