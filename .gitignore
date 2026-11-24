@@ -1,0 +1,23 @@
+.venv/
+venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+.env
+data/
+demo_data/
+*.db
+*.sqlite
+*.sqlite3
+.DS_Store
+
+# Old documentation and archives
+EchoDiary_DA321_Technical_Audit.md
+EchoDiary_project.zip
+
+# Streamlit secrets
+.streamlit/secrets.toml
+secrets.toml
+
+# Generated files
+*.log

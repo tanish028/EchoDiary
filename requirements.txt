@@ -1,0 +1,10 @@
+streamlit>=1.51
+numpy>=1.26
+scipy>=1.11
+plotly>=5.20
+pandas>=2.0
+Pillow>=10.0
+# dev / tests
+pytest>=8.0
+# optional: browser e2e (tests/e2e_browser.py)
+# playwright>=1.40
